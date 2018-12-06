@@ -2,3 +2,25 @@
   margin: 3% auto;
   width: 72%;
 }
+
+.home__error {
+  color: #D6D5D5;
+  font-weight: bold;
+  font-size: 24px;
+  margin: auto;
+}
+
+.page-link {
+  background-color: #D6D5D5;
+  color: #222222;
+  border: 1px solid #D6D5D5;
+}
+
+.page-link:hover {
+  color: #3B3A3A
+}
+
+.page-item.active .page-link {
+  background-color: #222222;
+  border-color: #222222;
+}

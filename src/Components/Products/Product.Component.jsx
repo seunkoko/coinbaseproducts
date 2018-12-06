@@ -55,7 +55,7 @@ const Product = ({
             BASE MIN SIZE
           </div>
           <div className="col-5 product__description">
-            {baseMinSize}
+            {baseMinSize || 'N/A'}
           </div>
         </div>
 
@@ -64,7 +64,7 @@ const Product = ({
             BASE MAX SIZE
           </div>
           <div className="col-5 product__description">
-            {baseMaxSize}
+            {baseMaxSize || 'N/A'}
           </div>
         </div>
 
@@ -73,7 +73,7 @@ const Product = ({
             QUOTE INCREMENT
           </div>
           <div className="col-5 product__description">
-            {quoteIncrement}
+            {quoteIncrement || 'N/A'}
           </div>
         </div>
 
@@ -82,7 +82,7 @@ const Product = ({
             MIN MARKET FUNDS
           </div>
           <div className="col-5 product__description">
-            {minMarketFunds}
+            {minMarketFunds || 'N/A'}
           </div>
         </div>
 
@@ -91,7 +91,7 @@ const Product = ({
             MAX MARKET FUNDS
           </div>
           <div className="col-5 product__description">
-            {maxMarketFunds}
+            {maxMarketFunds || 'N/A'}
           </div>
         </div>
       </div>

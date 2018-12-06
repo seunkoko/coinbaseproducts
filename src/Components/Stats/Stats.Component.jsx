@@ -26,7 +26,7 @@ const Stats = ({
           =
         </div>
         <div className="col-5">
-          {open}
+          {open || 'N/A'}
         </div>
       </div>
 
@@ -38,7 +38,7 @@ const Stats = ({
           =
         </div>
         <div className="col-5">
-          {high}
+          {high || 'N/A'}
         </div>
       </div>
 
@@ -50,7 +50,7 @@ const Stats = ({
           =
         </div>
         <div className="col-5">
-          {low}
+          {low || 'N/A'}
         </div>
       </div>
 
@@ -62,7 +62,7 @@ const Stats = ({
           =
         </div>
         <div className="col-5">
-          {volume}
+          {volume || 'N/A'}
         </div>
       </div>
 
@@ -74,7 +74,7 @@ const Stats = ({
           =
         </div>
         <div className="col-5">
-          {last}
+          {last || 'N/A'}
         </div>
       </div>
 
@@ -86,7 +86,7 @@ const Stats = ({
           =
         </div>
         <div className="col-5">
-          {volume30day}
+          {volume30day || 'N/A'}
         </div>
       </div>
     </div>
