@@ -1,0 +1,28 @@
+.stats___container {
+  height: 250px;
+  margin: 0;
+  background-color: #222222;
+  color: #D6D5D5;
+  margin-bottom: 50px;
+  box-shadow: 0 0 2px 4px #222222;
+}
+
+.stats__row {
+  margin-top: 16px;
+}
+
+.stats__details {
+  margin-top: 8px;
+  margin-left: 5px;
+  font-size: 12px;
+}
+
+.stats__title {
+  padding: 20px;
+  text-align: center;
+  color: #6764FF;
+  font-weight: bold;
+  font-size: 13px;
+}
+
+

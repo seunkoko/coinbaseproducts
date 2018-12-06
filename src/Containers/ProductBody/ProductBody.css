@@ -1,0 +1,31 @@
+.productbody__containder {
+  margin: 0;
+  padding: 0;
+}
+
+.arrow___container {
+  margin-top: 9%;
+  color: #D6D5D5;
+}
+
+.arrow__name {
+  font-size: 13px;
+  font-weight: bold;
+}
+
+.line {
+  margin-top: 8px;
+  width: 110px;
+  background: #D6D5D5;
+  height: 2px;
+  float: left;
+}
+
+.point {    
+  width: 0;
+  height: 0; 
+  border-top: 10px solid transparent;
+  border-bottom: 10px solid transparent;
+  border-left: 30px solid #D6D5D5;
+  float:right;
+}

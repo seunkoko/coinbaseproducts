@@ -1,0 +1,23 @@
+.nav__header {
+  background: #222222;
+  color: #D6D5D5;
+  height: 60px;
+  font-style: normal;
+  font-weight: bold;
+  line-height: normal;
+  padding: 10px;
+}
+
+.coinbase__header, .donut__header {
+  display: inline;
+}
+
+.coinbase__header {
+  float: right;
+}
+
+.header___container {
+  margin: auto;
+  margin-top: 10px;
+  width: 70%;
+}
