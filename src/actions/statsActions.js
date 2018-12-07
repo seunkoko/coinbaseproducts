@@ -41,7 +41,7 @@ export const getStatsPending = () => ({
 });
 
 /**
- * STATS - Dispatch STATSs after succesfully getting it
+ * STATS - Dispatch STATS after succesfully getting it
  *
  * @param {string} productId - product's Id
  * @param {function} dispatch - dispatch method
