@@ -27,14 +27,14 @@ export const stats = (state = initialState.stats, action) => {
 
   case GET_STATS_FAILURE:
     return {
-      data: [],
+      data: {},
       error: action.error,
       pending: action.pending,
     };
 
   case GET_STATS_PENDING:
     return {
-      data: [],
+      data: {},
       error: action.error,
       pending: action.pending,
     };
