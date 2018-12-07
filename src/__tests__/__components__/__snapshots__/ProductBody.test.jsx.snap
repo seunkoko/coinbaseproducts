@@ -1,0 +1,371 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ProductBody renders correctly when products and stats are supplied 1`] = `
+<BrowserRouter>
+  <Router
+    history={
+      Object {
+        "action": "POP",
+        "block": [Function],
+        "createHref": [Function],
+        "go": [Function],
+        "goBack": [Function],
+        "goForward": [Function],
+        "length": 1,
+        "listen": [Function],
+        "location": Object {
+          "hash": "",
+          "pathname": "/",
+          "search": "",
+          "state": undefined,
+        },
+        "push": [Function],
+        "replace": [Function],
+      }
+    }
+  >
+    <ProductBody
+      getStats={[Function]}
+      product={
+        Object {
+          "base_currency": "BCH",
+          "base_max_size": "350",
+          "base_min_size": "0.01",
+          "display_name": "BCH/USD",
+          "id": "BCH-USD",
+          "max_market_funds": "1000000",
+          "min_market_funds": "10",
+          "quote_currency": "USD",
+          "quote_increment": "0.01",
+          "status": "online",
+        }
+      }
+      stats={
+        Object {
+          "data": Object {
+            "high": "147.02000000",
+            "last": "127.78000000",
+            "low": "127.01000000",
+            "open": "147.02000000",
+            "volume": "30971.13372658",
+            "volume_30day": "552204.71064685",
+          },
+        }
+      }
+    >
+      <div
+        className="container productbody__containder"
+      >
+        <div
+          className="row"
+        >
+          <div
+            className="col-6"
+          >
+            <Product
+              baseCurrency="BCH"
+              baseMaxSize="350"
+              baseMinSize="0.01"
+              maxMarketFunds="1000000"
+              minMarketFunds="10"
+              quoteCurrency="USD"
+              quoteIncrement="0.01"
+              status="online"
+            >
+              <div
+                className="contianer product___container"
+              >
+                <div
+                  className="product_details"
+                >
+                  <div
+                    className="row"
+                  >
+                    <div
+                      className="col-2"
+                    >
+                      <img
+                        alt="icon"
+                        className="logo"
+                        src="cryptoicon.png"
+                      />
+                    </div>
+                    <div
+                      className="col-3 product__text"
+                    >
+                      BCH
+                      <div
+                        className="currency__type"
+                      >
+                        Base Currency
+                      </div>
+                    </div>
+                    <div
+                      className="col-2"
+                    >
+                      <div
+                        className="product__line"
+                      />
+                    </div>
+                    <div
+                      className="col-3 product__text"
+                    >
+                      USD
+                      <div
+                        className="currency__type"
+                      >
+                        Quote Currency
+                      </div>
+                    </div>
+                  </div>
+                  <div
+                    className="product__description__container"
+                  >
+                    <div
+                      className="row product__description__row"
+                    >
+                      <div
+                        className="col-5 product__description__title"
+                      >
+                        STATUS
+                      </div>
+                      <div
+                        className="col-5 product__description"
+                      >
+                        <div
+                          className="online__status"
+                        />
+                        online
+                      </div>
+                    </div>
+                    <div
+                      className="row product__description__row"
+                    >
+                      <div
+                        className="col-5 product__description__title"
+                      >
+                        BASE MIN SIZE
+                      </div>
+                      <div
+                        className="col-5 product__description"
+                      >
+                        0.01
+                      </div>
+                    </div>
+                    <div
+                      className="row product__description__row"
+                    >
+                      <div
+                        className="col-5 product__description__title"
+                      >
+                        BASE MAX SIZE
+                      </div>
+                      <div
+                        className="col-5 product__description"
+                      >
+                        350
+                      </div>
+                    </div>
+                    <div
+                      className="row product__description__row"
+                    >
+                      <div
+                        className="col-5 product__description__title"
+                      >
+                        QUOTE INCREMENT
+                      </div>
+                      <div
+                        className="col-5 product__description"
+                      >
+                        0.01
+                      </div>
+                    </div>
+                    <div
+                      className="row product__description__row"
+                    >
+                      <div
+                        className="col-5 product__description__title"
+                      >
+                        MIN MARKET FUNDS
+                      </div>
+                      <div
+                        className="col-5 product__description"
+                      >
+                        10
+                      </div>
+                    </div>
+                    <div
+                      className="row product__description__row"
+                    >
+                      <div
+                        className="col-5 product__description__title"
+                      >
+                        MAX MARKET FUNDS
+                      </div>
+                      <div
+                        className="col-5 product__description"
+                      >
+                        1000000
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </Product>
+          </div>
+          <div
+            className="col-2 text-center arrow___container"
+          >
+            <div
+              className="arrow__name"
+            >
+              STATS
+            </div>
+            <div
+              className="line"
+            />
+            <div
+              className="point"
+            />
+          </div>
+          <div
+            className="col-4"
+          >
+            <Stats
+              displayName="BCH/USD"
+            >
+              <div
+                className="contianer stats___container"
+              >
+                <div
+                  className="stats__title"
+                >
+                  BCH/USD STATS
+                </div>
+                <div
+                  className="stats__row"
+                >
+                  <div
+                    className="row stats__details"
+                  >
+                    <div
+                      className="col-5"
+                    >
+                      OPEN
+                    </div>
+                    <div
+                      className="col-1"
+                    >
+                      =
+                    </div>
+                    <div
+                      className="col-5"
+                    >
+                      N/A
+                    </div>
+                  </div>
+                  <div
+                    className="row stats__details"
+                  >
+                    <div
+                      className="col-5"
+                    >
+                      HIGH
+                    </div>
+                    <div
+                      className="col-1"
+                    >
+                      =
+                    </div>
+                    <div
+                      className="col-5"
+                    >
+                      N/A
+                    </div>
+                  </div>
+                  <div
+                    className="row stats__details"
+                  >
+                    <div
+                      className="col-5"
+                    >
+                      LOW
+                    </div>
+                    <div
+                      className="col-1"
+                    >
+                      =
+                    </div>
+                    <div
+                      className="col-5"
+                    >
+                      N/A
+                    </div>
+                  </div>
+                  <div
+                    className="row stats__details"
+                  >
+                    <div
+                      className="col-5"
+                    >
+                      VOLUME
+                    </div>
+                    <div
+                      className="col-1"
+                    >
+                      =
+                    </div>
+                    <div
+                      className="col-5"
+                    >
+                      N/A
+                    </div>
+                  </div>
+                  <div
+                    className="row stats__details"
+                  >
+                    <div
+                      className="col-5"
+                    >
+                      LAST
+                    </div>
+                    <div
+                      className="col-1"
+                    >
+                      =
+                    </div>
+                    <div
+                      className="col-5"
+                    >
+                      N/A
+                    </div>
+                  </div>
+                  <div
+                    className="row stats__details"
+                  >
+                    <div
+                      className="col-5"
+                    >
+                      VOLUME (30 day)
+                    </div>
+                    <div
+                      className="col-1"
+                    >
+                      =
+                    </div>
+                    <div
+                      className="col-5"
+                    >
+                      N/A
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </Stats>
+          </div>
+        </div>
+      </div>
+    </ProductBody>
+  </Router>
+</BrowserRouter>
+`;

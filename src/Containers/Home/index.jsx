@@ -16,7 +16,7 @@ import { getProducts } from '../../actions/productActions';
 // style
 import './Home.css';
 
-class Home extends Component {
+export class Home extends Component {
   state = {
     paginatedProducts: [],
     page: 1,
