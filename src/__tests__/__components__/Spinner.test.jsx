@@ -5,7 +5,7 @@ import React from 'react';
 import renderer from 'react-test-renderer';
 
 // components
-import Spinner from '../../components/Spinner/Spinner.component';
+import Spinner from '../../Components/Spinner/Spinner.component';
 
 describe('Spinner', () => {
   let component;

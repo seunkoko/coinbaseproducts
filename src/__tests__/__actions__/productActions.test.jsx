@@ -11,7 +11,7 @@ import {
   getProductSuccess,
   getProductPending,
   getProducts,
-} from '../../actions/ProductActions';
+} from '../../actions/productActions';
 
 // types
 import {

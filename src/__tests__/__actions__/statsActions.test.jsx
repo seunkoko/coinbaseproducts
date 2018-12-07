@@ -11,7 +11,7 @@ import {
   getStatsSuccess,
   getStatsPending,
   getStats,
-} from '../../actions/StatsActions';
+} from '../../actions/statsActions';
 
 // types
 import {

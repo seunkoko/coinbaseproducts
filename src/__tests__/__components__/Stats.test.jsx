@@ -4,7 +4,7 @@ import React from 'react';
 import { shallow } from 'enzyme';
 
 // components
-import Stats from '../../components/Stats/Stats.Component';
+import Stats from '../../Components/Stats/Stats.Component';
 
 describe('Product', () => {
   let props = {
