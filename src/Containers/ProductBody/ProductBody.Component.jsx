@@ -13,7 +13,7 @@ import { getStats } from '../../actions/statsActions';
 // style
 import './ProductBody.css';
 
-class ProductBody extends Component {
+export class ProductBody extends Component {
   state = {
     product: {},
     stats: {},

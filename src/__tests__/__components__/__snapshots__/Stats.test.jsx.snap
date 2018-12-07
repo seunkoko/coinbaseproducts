@@ -1,0 +1,2745 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Product renders the Product properly when props is passed 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <Stats
+    displayName="BCH/USD"
+    high={147.02}
+    last={127.01}
+    low={127.01}
+    open={147.02}
+    volume={30971.13372658}
+    volume30day={552204.71064685}
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <div
+          className="stats__title"
+        >
+          BCH/USD STATS
+        </div>,
+        <div
+          className="stats__row"
+        >
+          <div
+            className="row stats__details"
+          >
+            <div
+              className="col-5"
+            >
+              OPEN
+            </div>
+            <div
+              className="col-1"
+            >
+              =
+            </div>
+            <div
+              className="col-5"
+            >
+              147.02
+            </div>
+          </div>
+          <div
+            className="row stats__details"
+          >
+            <div
+              className="col-5"
+            >
+              HIGH
+            </div>
+            <div
+              className="col-1"
+            >
+              =
+            </div>
+            <div
+              className="col-5"
+            >
+              147.02
+            </div>
+          </div>
+          <div
+            className="row stats__details"
+          >
+            <div
+              className="col-5"
+            >
+              LOW
+            </div>
+            <div
+              className="col-1"
+            >
+              =
+            </div>
+            <div
+              className="col-5"
+            >
+              127.01
+            </div>
+          </div>
+          <div
+            className="row stats__details"
+          >
+            <div
+              className="col-5"
+            >
+              VOLUME
+            </div>
+            <div
+              className="col-1"
+            >
+              =
+            </div>
+            <div
+              className="col-5"
+            >
+              30971.13372658
+            </div>
+          </div>
+          <div
+            className="row stats__details"
+          >
+            <div
+              className="col-5"
+            >
+              LAST
+            </div>
+            <div
+              className="col-1"
+            >
+              =
+            </div>
+            <div
+              className="col-5"
+            >
+              127.01
+            </div>
+          </div>
+          <div
+            className="row stats__details"
+          >
+            <div
+              className="col-5"
+            >
+              VOLUME (30 day)
+            </div>
+            <div
+              className="col-1"
+            >
+              =
+            </div>
+            <div
+              className="col-5"
+            >
+              552204.71064685
+            </div>
+          </div>
+        </div>,
+      ],
+      "className": "contianer stats___container",
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": "BCH/USD STATS",
+          "className": "stats__title",
+        },
+        "ref": null,
+        "rendered": "BCH/USD STATS",
+        "type": "div",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <div
+              className="row stats__details"
+            >
+              <div
+                className="col-5"
+              >
+                OPEN
+              </div>
+              <div
+                className="col-1"
+              >
+                =
+              </div>
+              <div
+                className="col-5"
+              >
+                147.02
+              </div>
+            </div>,
+            <div
+              className="row stats__details"
+            >
+              <div
+                className="col-5"
+              >
+                HIGH
+              </div>
+              <div
+                className="col-1"
+              >
+                =
+              </div>
+              <div
+                className="col-5"
+              >
+                147.02
+              </div>
+            </div>,
+            <div
+              className="row stats__details"
+            >
+              <div
+                className="col-5"
+              >
+                LOW
+              </div>
+              <div
+                className="col-1"
+              >
+                =
+              </div>
+              <div
+                className="col-5"
+              >
+                127.01
+              </div>
+            </div>,
+            <div
+              className="row stats__details"
+            >
+              <div
+                className="col-5"
+              >
+                VOLUME
+              </div>
+              <div
+                className="col-1"
+              >
+                =
+              </div>
+              <div
+                className="col-5"
+              >
+                30971.13372658
+              </div>
+            </div>,
+            <div
+              className="row stats__details"
+            >
+              <div
+                className="col-5"
+              >
+                LAST
+              </div>
+              <div
+                className="col-1"
+              >
+                =
+              </div>
+              <div
+                className="col-5"
+              >
+                127.01
+              </div>
+            </div>,
+            <div
+              className="row stats__details"
+            >
+              <div
+                className="col-5"
+              >
+                VOLUME (30 day)
+              </div>
+              <div
+                className="col-1"
+              >
+                =
+              </div>
+              <div
+                className="col-5"
+              >
+                552204.71064685
+              </div>
+            </div>,
+          ],
+          "className": "stats__row",
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <div
+                  className="col-5"
+                >
+                  OPEN
+                </div>,
+                <div
+                  className="col-1"
+                >
+                  =
+                </div>,
+                <div
+                  className="col-5"
+                >
+                  147.02
+                </div>,
+              ],
+              "className": "row stats__details",
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "OPEN",
+                  "className": "col-5",
+                },
+                "ref": null,
+                "rendered": "OPEN",
+                "type": "div",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "=",
+                  "className": "col-1",
+                },
+                "ref": null,
+                "rendered": "=",
+                "type": "div",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": 147.02,
+                  "className": "col-5",
+                },
+                "ref": null,
+                "rendered": 147.02,
+                "type": "div",
+              },
+            ],
+            "type": "div",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <div
+                  className="col-5"
+                >
+                  HIGH
+                </div>,
+                <div
+                  className="col-1"
+                >
+                  =
+                </div>,
+                <div
+                  className="col-5"
+                >
+                  147.02
+                </div>,
+              ],
+              "className": "row stats__details",
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "HIGH",
+                  "className": "col-5",
+                },
+                "ref": null,
+                "rendered": "HIGH",
+                "type": "div",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "=",
+                  "className": "col-1",
+                },
+                "ref": null,
+                "rendered": "=",
+                "type": "div",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": 147.02,
+                  "className": "col-5",
+                },
+                "ref": null,
+                "rendered": 147.02,
+                "type": "div",
+              },
+            ],
+            "type": "div",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <div
+                  className="col-5"
+                >
+                  LOW
+                </div>,
+                <div
+                  className="col-1"
+                >
+                  =
+                </div>,
+                <div
+                  className="col-5"
+                >
+                  127.01
+                </div>,
+              ],
+              "className": "row stats__details",
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "LOW",
+                  "className": "col-5",
+                },
+                "ref": null,
+                "rendered": "LOW",
+                "type": "div",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "=",
+                  "className": "col-1",
+                },
+                "ref": null,
+                "rendered": "=",
+                "type": "div",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": 127.01,
+                  "className": "col-5",
+                },
+                "ref": null,
+                "rendered": 127.01,
+                "type": "div",
+              },
+            ],
+            "type": "div",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <div
+                  className="col-5"
+                >
+                  VOLUME
+                </div>,
+                <div
+                  className="col-1"
+                >
+                  =
+                </div>,
+                <div
+                  className="col-5"
+                >
+                  30971.13372658
+                </div>,
+              ],
+              "className": "row stats__details",
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "VOLUME",
+                  "className": "col-5",
+                },
+                "ref": null,
+                "rendered": "VOLUME",
+                "type": "div",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "=",
+                  "className": "col-1",
+                },
+                "ref": null,
+                "rendered": "=",
+                "type": "div",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": 30971.13372658,
+                  "className": "col-5",
+                },
+                "ref": null,
+                "rendered": 30971.13372658,
+                "type": "div",
+              },
+            ],
+            "type": "div",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <div
+                  className="col-5"
+                >
+                  LAST
+                </div>,
+                <div
+                  className="col-1"
+                >
+                  =
+                </div>,
+                <div
+                  className="col-5"
+                >
+                  127.01
+                </div>,
+              ],
+              "className": "row stats__details",
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "LAST",
+                  "className": "col-5",
+                },
+                "ref": null,
+                "rendered": "LAST",
+                "type": "div",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "=",
+                  "className": "col-1",
+                },
+                "ref": null,
+                "rendered": "=",
+                "type": "div",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": 127.01,
+                  "className": "col-5",
+                },
+                "ref": null,
+                "rendered": 127.01,
+                "type": "div",
+              },
+            ],
+            "type": "div",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <div
+                  className="col-5"
+                >
+                  VOLUME (30 day)
+                </div>,
+                <div
+                  className="col-1"
+                >
+                  =
+                </div>,
+                <div
+                  className="col-5"
+                >
+                  552204.71064685
+                </div>,
+              ],
+              "className": "row stats__details",
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "VOLUME (30 day)",
+                  "className": "col-5",
+                },
+                "ref": null,
+                "rendered": "VOLUME (30 day)",
+                "type": "div",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "=",
+                  "className": "col-1",
+                },
+                "ref": null,
+                "rendered": "=",
+                "type": "div",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": 552204.71064685,
+                  "className": "col-5",
+                },
+                "ref": null,
+                "rendered": 552204.71064685,
+                "type": "div",
+              },
+            ],
+            "type": "div",
+          },
+        ],
+        "type": "div",
+      },
+    ],
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <div
+            className="stats__title"
+          >
+            BCH/USD STATS
+          </div>,
+          <div
+            className="stats__row"
+          >
+            <div
+              className="row stats__details"
+            >
+              <div
+                className="col-5"
+              >
+                OPEN
+              </div>
+              <div
+                className="col-1"
+              >
+                =
+              </div>
+              <div
+                className="col-5"
+              >
+                147.02
+              </div>
+            </div>
+            <div
+              className="row stats__details"
+            >
+              <div
+                className="col-5"
+              >
+                HIGH
+              </div>
+              <div
+                className="col-1"
+              >
+                =
+              </div>
+              <div
+                className="col-5"
+              >
+                147.02
+              </div>
+            </div>
+            <div
+              className="row stats__details"
+            >
+              <div
+                className="col-5"
+              >
+                LOW
+              </div>
+              <div
+                className="col-1"
+              >
+                =
+              </div>
+              <div
+                className="col-5"
+              >
+                127.01
+              </div>
+            </div>
+            <div
+              className="row stats__details"
+            >
+              <div
+                className="col-5"
+              >
+                VOLUME
+              </div>
+              <div
+                className="col-1"
+              >
+                =
+              </div>
+              <div
+                className="col-5"
+              >
+                30971.13372658
+              </div>
+            </div>
+            <div
+              className="row stats__details"
+            >
+              <div
+                className="col-5"
+              >
+                LAST
+              </div>
+              <div
+                className="col-1"
+              >
+                =
+              </div>
+              <div
+                className="col-5"
+              >
+                127.01
+              </div>
+            </div>
+            <div
+              className="row stats__details"
+            >
+              <div
+                className="col-5"
+              >
+                VOLUME (30 day)
+              </div>
+              <div
+                className="col-1"
+              >
+                =
+              </div>
+              <div
+                className="col-5"
+              >
+                552204.71064685
+              </div>
+            </div>
+          </div>,
+        ],
+        "className": "contianer stats___container",
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "BCH/USD STATS",
+            "className": "stats__title",
+          },
+          "ref": null,
+          "rendered": "BCH/USD STATS",
+          "type": "div",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <div
+                className="row stats__details"
+              >
+                <div
+                  className="col-5"
+                >
+                  OPEN
+                </div>
+                <div
+                  className="col-1"
+                >
+                  =
+                </div>
+                <div
+                  className="col-5"
+                >
+                  147.02
+                </div>
+              </div>,
+              <div
+                className="row stats__details"
+              >
+                <div
+                  className="col-5"
+                >
+                  HIGH
+                </div>
+                <div
+                  className="col-1"
+                >
+                  =
+                </div>
+                <div
+                  className="col-5"
+                >
+                  147.02
+                </div>
+              </div>,
+              <div
+                className="row stats__details"
+              >
+                <div
+                  className="col-5"
+                >
+                  LOW
+                </div>
+                <div
+                  className="col-1"
+                >
+                  =
+                </div>
+                <div
+                  className="col-5"
+                >
+                  127.01
+                </div>
+              </div>,
+              <div
+                className="row stats__details"
+              >
+                <div
+                  className="col-5"
+                >
+                  VOLUME
+                </div>
+                <div
+                  className="col-1"
+                >
+                  =
+                </div>
+                <div
+                  className="col-5"
+                >
+                  30971.13372658
+                </div>
+              </div>,
+              <div
+                className="row stats__details"
+              >
+                <div
+                  className="col-5"
+                >
+                  LAST
+                </div>
+                <div
+                  className="col-1"
+                >
+                  =
+                </div>
+                <div
+                  className="col-5"
+                >
+                  127.01
+                </div>
+              </div>,
+              <div
+                className="row stats__details"
+              >
+                <div
+                  className="col-5"
+                >
+                  VOLUME (30 day)
+                </div>
+                <div
+                  className="col-1"
+                >
+                  =
+                </div>
+                <div
+                  className="col-5"
+                >
+                  552204.71064685
+                </div>
+              </div>,
+            ],
+            "className": "stats__row",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  <div
+                    className="col-5"
+                  >
+                    OPEN
+                  </div>,
+                  <div
+                    className="col-1"
+                  >
+                    =
+                  </div>,
+                  <div
+                    className="col-5"
+                  >
+                    147.02
+                  </div>,
+                ],
+                "className": "row stats__details",
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "OPEN",
+                    "className": "col-5",
+                  },
+                  "ref": null,
+                  "rendered": "OPEN",
+                  "type": "div",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "=",
+                    "className": "col-1",
+                  },
+                  "ref": null,
+                  "rendered": "=",
+                  "type": "div",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": 147.02,
+                    "className": "col-5",
+                  },
+                  "ref": null,
+                  "rendered": 147.02,
+                  "type": "div",
+                },
+              ],
+              "type": "div",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  <div
+                    className="col-5"
+                  >
+                    HIGH
+                  </div>,
+                  <div
+                    className="col-1"
+                  >
+                    =
+                  </div>,
+                  <div
+                    className="col-5"
+                  >
+                    147.02
+                  </div>,
+                ],
+                "className": "row stats__details",
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "HIGH",
+                    "className": "col-5",
+                  },
+                  "ref": null,
+                  "rendered": "HIGH",
+                  "type": "div",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "=",
+                    "className": "col-1",
+                  },
+                  "ref": null,
+                  "rendered": "=",
+                  "type": "div",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": 147.02,
+                    "className": "col-5",
+                  },
+                  "ref": null,
+                  "rendered": 147.02,
+                  "type": "div",
+                },
+              ],
+              "type": "div",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  <div
+                    className="col-5"
+                  >
+                    LOW
+                  </div>,
+                  <div
+                    className="col-1"
+                  >
+                    =
+                  </div>,
+                  <div
+                    className="col-5"
+                  >
+                    127.01
+                  </div>,
+                ],
+                "className": "row stats__details",
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "LOW",
+                    "className": "col-5",
+                  },
+                  "ref": null,
+                  "rendered": "LOW",
+                  "type": "div",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "=",
+                    "className": "col-1",
+                  },
+                  "ref": null,
+                  "rendered": "=",
+                  "type": "div",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": 127.01,
+                    "className": "col-5",
+                  },
+                  "ref": null,
+                  "rendered": 127.01,
+                  "type": "div",
+                },
+              ],
+              "type": "div",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  <div
+                    className="col-5"
+                  >
+                    VOLUME
+                  </div>,
+                  <div
+                    className="col-1"
+                  >
+                    =
+                  </div>,
+                  <div
+                    className="col-5"
+                  >
+                    30971.13372658
+                  </div>,
+                ],
+                "className": "row stats__details",
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "VOLUME",
+                    "className": "col-5",
+                  },
+                  "ref": null,
+                  "rendered": "VOLUME",
+                  "type": "div",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "=",
+                    "className": "col-1",
+                  },
+                  "ref": null,
+                  "rendered": "=",
+                  "type": "div",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": 30971.13372658,
+                    "className": "col-5",
+                  },
+                  "ref": null,
+                  "rendered": 30971.13372658,
+                  "type": "div",
+                },
+              ],
+              "type": "div",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  <div
+                    className="col-5"
+                  >
+                    LAST
+                  </div>,
+                  <div
+                    className="col-1"
+                  >
+                    =
+                  </div>,
+                  <div
+                    className="col-5"
+                  >
+                    127.01
+                  </div>,
+                ],
+                "className": "row stats__details",
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "LAST",
+                    "className": "col-5",
+                  },
+                  "ref": null,
+                  "rendered": "LAST",
+                  "type": "div",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "=",
+                    "className": "col-1",
+                  },
+                  "ref": null,
+                  "rendered": "=",
+                  "type": "div",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": 127.01,
+                    "className": "col-5",
+                  },
+                  "ref": null,
+                  "rendered": 127.01,
+                  "type": "div",
+                },
+              ],
+              "type": "div",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  <div
+                    className="col-5"
+                  >
+                    VOLUME (30 day)
+                  </div>,
+                  <div
+                    className="col-1"
+                  >
+                    =
+                  </div>,
+                  <div
+                    className="col-5"
+                  >
+                    552204.71064685
+                  </div>,
+                ],
+                "className": "row stats__details",
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "VOLUME (30 day)",
+                    "className": "col-5",
+                  },
+                  "ref": null,
+                  "rendered": "VOLUME (30 day)",
+                  "type": "div",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "=",
+                    "className": "col-1",
+                  },
+                  "ref": null,
+                  "rendered": "=",
+                  "type": "div",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": 552204.71064685,
+                    "className": "col-5",
+                  },
+                  "ref": null,
+                  "rendered": 552204.71064685,
+                  "type": "div",
+                },
+              ],
+              "type": "div",
+            },
+          ],
+          "type": "div",
+        },
+      ],
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getDerivedStateFromProps": true,
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+  },
+}
+`;
+
+exports[`Product renders the Stats properly 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <Stats />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <div
+          className="stats__title"
+        >
+          undefined STATS
+        </div>,
+        <div
+          className="stats__row"
+        >
+          <div
+            className="row stats__details"
+          >
+            <div
+              className="col-5"
+            >
+              OPEN
+            </div>
+            <div
+              className="col-1"
+            >
+              =
+            </div>
+            <div
+              className="col-5"
+            >
+              N/A
+            </div>
+          </div>
+          <div
+            className="row stats__details"
+          >
+            <div
+              className="col-5"
+            >
+              HIGH
+            </div>
+            <div
+              className="col-1"
+            >
+              =
+            </div>
+            <div
+              className="col-5"
+            >
+              N/A
+            </div>
+          </div>
+          <div
+            className="row stats__details"
+          >
+            <div
+              className="col-5"
+            >
+              LOW
+            </div>
+            <div
+              className="col-1"
+            >
+              =
+            </div>
+            <div
+              className="col-5"
+            >
+              N/A
+            </div>
+          </div>
+          <div
+            className="row stats__details"
+          >
+            <div
+              className="col-5"
+            >
+              VOLUME
+            </div>
+            <div
+              className="col-1"
+            >
+              =
+            </div>
+            <div
+              className="col-5"
+            >
+              N/A
+            </div>
+          </div>
+          <div
+            className="row stats__details"
+          >
+            <div
+              className="col-5"
+            >
+              LAST
+            </div>
+            <div
+              className="col-1"
+            >
+              =
+            </div>
+            <div
+              className="col-5"
+            >
+              N/A
+            </div>
+          </div>
+          <div
+            className="row stats__details"
+          >
+            <div
+              className="col-5"
+            >
+              VOLUME (30 day)
+            </div>
+            <div
+              className="col-1"
+            >
+              =
+            </div>
+            <div
+              className="col-5"
+            >
+              N/A
+            </div>
+          </div>
+        </div>,
+      ],
+      "className": "contianer stats___container",
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": "undefined STATS",
+          "className": "stats__title",
+        },
+        "ref": null,
+        "rendered": "undefined STATS",
+        "type": "div",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <div
+              className="row stats__details"
+            >
+              <div
+                className="col-5"
+              >
+                OPEN
+              </div>
+              <div
+                className="col-1"
+              >
+                =
+              </div>
+              <div
+                className="col-5"
+              >
+                N/A
+              </div>
+            </div>,
+            <div
+              className="row stats__details"
+            >
+              <div
+                className="col-5"
+              >
+                HIGH
+              </div>
+              <div
+                className="col-1"
+              >
+                =
+              </div>
+              <div
+                className="col-5"
+              >
+                N/A
+              </div>
+            </div>,
+            <div
+              className="row stats__details"
+            >
+              <div
+                className="col-5"
+              >
+                LOW
+              </div>
+              <div
+                className="col-1"
+              >
+                =
+              </div>
+              <div
+                className="col-5"
+              >
+                N/A
+              </div>
+            </div>,
+            <div
+              className="row stats__details"
+            >
+              <div
+                className="col-5"
+              >
+                VOLUME
+              </div>
+              <div
+                className="col-1"
+              >
+                =
+              </div>
+              <div
+                className="col-5"
+              >
+                N/A
+              </div>
+            </div>,
+            <div
+              className="row stats__details"
+            >
+              <div
+                className="col-5"
+              >
+                LAST
+              </div>
+              <div
+                className="col-1"
+              >
+                =
+              </div>
+              <div
+                className="col-5"
+              >
+                N/A
+              </div>
+            </div>,
+            <div
+              className="row stats__details"
+            >
+              <div
+                className="col-5"
+              >
+                VOLUME (30 day)
+              </div>
+              <div
+                className="col-1"
+              >
+                =
+              </div>
+              <div
+                className="col-5"
+              >
+                N/A
+              </div>
+            </div>,
+          ],
+          "className": "stats__row",
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <div
+                  className="col-5"
+                >
+                  OPEN
+                </div>,
+                <div
+                  className="col-1"
+                >
+                  =
+                </div>,
+                <div
+                  className="col-5"
+                >
+                  N/A
+                </div>,
+              ],
+              "className": "row stats__details",
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "OPEN",
+                  "className": "col-5",
+                },
+                "ref": null,
+                "rendered": "OPEN",
+                "type": "div",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "=",
+                  "className": "col-1",
+                },
+                "ref": null,
+                "rendered": "=",
+                "type": "div",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "N/A",
+                  "className": "col-5",
+                },
+                "ref": null,
+                "rendered": "N/A",
+                "type": "div",
+              },
+            ],
+            "type": "div",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <div
+                  className="col-5"
+                >
+                  HIGH
+                </div>,
+                <div
+                  className="col-1"
+                >
+                  =
+                </div>,
+                <div
+                  className="col-5"
+                >
+                  N/A
+                </div>,
+              ],
+              "className": "row stats__details",
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "HIGH",
+                  "className": "col-5",
+                },
+                "ref": null,
+                "rendered": "HIGH",
+                "type": "div",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "=",
+                  "className": "col-1",
+                },
+                "ref": null,
+                "rendered": "=",
+                "type": "div",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "N/A",
+                  "className": "col-5",
+                },
+                "ref": null,
+                "rendered": "N/A",
+                "type": "div",
+              },
+            ],
+            "type": "div",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <div
+                  className="col-5"
+                >
+                  LOW
+                </div>,
+                <div
+                  className="col-1"
+                >
+                  =
+                </div>,
+                <div
+                  className="col-5"
+                >
+                  N/A
+                </div>,
+              ],
+              "className": "row stats__details",
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "LOW",
+                  "className": "col-5",
+                },
+                "ref": null,
+                "rendered": "LOW",
+                "type": "div",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "=",
+                  "className": "col-1",
+                },
+                "ref": null,
+                "rendered": "=",
+                "type": "div",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "N/A",
+                  "className": "col-5",
+                },
+                "ref": null,
+                "rendered": "N/A",
+                "type": "div",
+              },
+            ],
+            "type": "div",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <div
+                  className="col-5"
+                >
+                  VOLUME
+                </div>,
+                <div
+                  className="col-1"
+                >
+                  =
+                </div>,
+                <div
+                  className="col-5"
+                >
+                  N/A
+                </div>,
+              ],
+              "className": "row stats__details",
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "VOLUME",
+                  "className": "col-5",
+                },
+                "ref": null,
+                "rendered": "VOLUME",
+                "type": "div",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "=",
+                  "className": "col-1",
+                },
+                "ref": null,
+                "rendered": "=",
+                "type": "div",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "N/A",
+                  "className": "col-5",
+                },
+                "ref": null,
+                "rendered": "N/A",
+                "type": "div",
+              },
+            ],
+            "type": "div",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <div
+                  className="col-5"
+                >
+                  LAST
+                </div>,
+                <div
+                  className="col-1"
+                >
+                  =
+                </div>,
+                <div
+                  className="col-5"
+                >
+                  N/A
+                </div>,
+              ],
+              "className": "row stats__details",
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "LAST",
+                  "className": "col-5",
+                },
+                "ref": null,
+                "rendered": "LAST",
+                "type": "div",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "=",
+                  "className": "col-1",
+                },
+                "ref": null,
+                "rendered": "=",
+                "type": "div",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "N/A",
+                  "className": "col-5",
+                },
+                "ref": null,
+                "rendered": "N/A",
+                "type": "div",
+              },
+            ],
+            "type": "div",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <div
+                  className="col-5"
+                >
+                  VOLUME (30 day)
+                </div>,
+                <div
+                  className="col-1"
+                >
+                  =
+                </div>,
+                <div
+                  className="col-5"
+                >
+                  N/A
+                </div>,
+              ],
+              "className": "row stats__details",
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "VOLUME (30 day)",
+                  "className": "col-5",
+                },
+                "ref": null,
+                "rendered": "VOLUME (30 day)",
+                "type": "div",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "=",
+                  "className": "col-1",
+                },
+                "ref": null,
+                "rendered": "=",
+                "type": "div",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "N/A",
+                  "className": "col-5",
+                },
+                "ref": null,
+                "rendered": "N/A",
+                "type": "div",
+              },
+            ],
+            "type": "div",
+          },
+        ],
+        "type": "div",
+      },
+    ],
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <div
+            className="stats__title"
+          >
+            undefined STATS
+          </div>,
+          <div
+            className="stats__row"
+          >
+            <div
+              className="row stats__details"
+            >
+              <div
+                className="col-5"
+              >
+                OPEN
+              </div>
+              <div
+                className="col-1"
+              >
+                =
+              </div>
+              <div
+                className="col-5"
+              >
+                N/A
+              </div>
+            </div>
+            <div
+              className="row stats__details"
+            >
+              <div
+                className="col-5"
+              >
+                HIGH
+              </div>
+              <div
+                className="col-1"
+              >
+                =
+              </div>
+              <div
+                className="col-5"
+              >
+                N/A
+              </div>
+            </div>
+            <div
+              className="row stats__details"
+            >
+              <div
+                className="col-5"
+              >
+                LOW
+              </div>
+              <div
+                className="col-1"
+              >
+                =
+              </div>
+              <div
+                className="col-5"
+              >
+                N/A
+              </div>
+            </div>
+            <div
+              className="row stats__details"
+            >
+              <div
+                className="col-5"
+              >
+                VOLUME
+              </div>
+              <div
+                className="col-1"
+              >
+                =
+              </div>
+              <div
+                className="col-5"
+              >
+                N/A
+              </div>
+            </div>
+            <div
+              className="row stats__details"
+            >
+              <div
+                className="col-5"
+              >
+                LAST
+              </div>
+              <div
+                className="col-1"
+              >
+                =
+              </div>
+              <div
+                className="col-5"
+              >
+                N/A
+              </div>
+            </div>
+            <div
+              className="row stats__details"
+            >
+              <div
+                className="col-5"
+              >
+                VOLUME (30 day)
+              </div>
+              <div
+                className="col-1"
+              >
+                =
+              </div>
+              <div
+                className="col-5"
+              >
+                N/A
+              </div>
+            </div>
+          </div>,
+        ],
+        "className": "contianer stats___container",
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "undefined STATS",
+            "className": "stats__title",
+          },
+          "ref": null,
+          "rendered": "undefined STATS",
+          "type": "div",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <div
+                className="row stats__details"
+              >
+                <div
+                  className="col-5"
+                >
+                  OPEN
+                </div>
+                <div
+                  className="col-1"
+                >
+                  =
+                </div>
+                <div
+                  className="col-5"
+                >
+                  N/A
+                </div>
+              </div>,
+              <div
+                className="row stats__details"
+              >
+                <div
+                  className="col-5"
+                >
+                  HIGH
+                </div>
+                <div
+                  className="col-1"
+                >
+                  =
+                </div>
+                <div
+                  className="col-5"
+                >
+                  N/A
+                </div>
+              </div>,
+              <div
+                className="row stats__details"
+              >
+                <div
+                  className="col-5"
+                >
+                  LOW
+                </div>
+                <div
+                  className="col-1"
+                >
+                  =
+                </div>
+                <div
+                  className="col-5"
+                >
+                  N/A
+                </div>
+              </div>,
+              <div
+                className="row stats__details"
+              >
+                <div
+                  className="col-5"
+                >
+                  VOLUME
+                </div>
+                <div
+                  className="col-1"
+                >
+                  =
+                </div>
+                <div
+                  className="col-5"
+                >
+                  N/A
+                </div>
+              </div>,
+              <div
+                className="row stats__details"
+              >
+                <div
+                  className="col-5"
+                >
+                  LAST
+                </div>
+                <div
+                  className="col-1"
+                >
+                  =
+                </div>
+                <div
+                  className="col-5"
+                >
+                  N/A
+                </div>
+              </div>,
+              <div
+                className="row stats__details"
+              >
+                <div
+                  className="col-5"
+                >
+                  VOLUME (30 day)
+                </div>
+                <div
+                  className="col-1"
+                >
+                  =
+                </div>
+                <div
+                  className="col-5"
+                >
+                  N/A
+                </div>
+              </div>,
+            ],
+            "className": "stats__row",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  <div
+                    className="col-5"
+                  >
+                    OPEN
+                  </div>,
+                  <div
+                    className="col-1"
+                  >
+                    =
+                  </div>,
+                  <div
+                    className="col-5"
+                  >
+                    N/A
+                  </div>,
+                ],
+                "className": "row stats__details",
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "OPEN",
+                    "className": "col-5",
+                  },
+                  "ref": null,
+                  "rendered": "OPEN",
+                  "type": "div",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "=",
+                    "className": "col-1",
+                  },
+                  "ref": null,
+                  "rendered": "=",
+                  "type": "div",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "N/A",
+                    "className": "col-5",
+                  },
+                  "ref": null,
+                  "rendered": "N/A",
+                  "type": "div",
+                },
+              ],
+              "type": "div",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  <div
+                    className="col-5"
+                  >
+                    HIGH
+                  </div>,
+                  <div
+                    className="col-1"
+                  >
+                    =
+                  </div>,
+                  <div
+                    className="col-5"
+                  >
+                    N/A
+                  </div>,
+                ],
+                "className": "row stats__details",
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "HIGH",
+                    "className": "col-5",
+                  },
+                  "ref": null,
+                  "rendered": "HIGH",
+                  "type": "div",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "=",
+                    "className": "col-1",
+                  },
+                  "ref": null,
+                  "rendered": "=",
+                  "type": "div",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "N/A",
+                    "className": "col-5",
+                  },
+                  "ref": null,
+                  "rendered": "N/A",
+                  "type": "div",
+                },
+              ],
+              "type": "div",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  <div
+                    className="col-5"
+                  >
+                    LOW
+                  </div>,
+                  <div
+                    className="col-1"
+                  >
+                    =
+                  </div>,
+                  <div
+                    className="col-5"
+                  >
+                    N/A
+                  </div>,
+                ],
+                "className": "row stats__details",
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "LOW",
+                    "className": "col-5",
+                  },
+                  "ref": null,
+                  "rendered": "LOW",
+                  "type": "div",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "=",
+                    "className": "col-1",
+                  },
+                  "ref": null,
+                  "rendered": "=",
+                  "type": "div",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "N/A",
+                    "className": "col-5",
+                  },
+                  "ref": null,
+                  "rendered": "N/A",
+                  "type": "div",
+                },
+              ],
+              "type": "div",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  <div
+                    className="col-5"
+                  >
+                    VOLUME
+                  </div>,
+                  <div
+                    className="col-1"
+                  >
+                    =
+                  </div>,
+                  <div
+                    className="col-5"
+                  >
+                    N/A
+                  </div>,
+                ],
+                "className": "row stats__details",
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "VOLUME",
+                    "className": "col-5",
+                  },
+                  "ref": null,
+                  "rendered": "VOLUME",
+                  "type": "div",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "=",
+                    "className": "col-1",
+                  },
+                  "ref": null,
+                  "rendered": "=",
+                  "type": "div",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "N/A",
+                    "className": "col-5",
+                  },
+                  "ref": null,
+                  "rendered": "N/A",
+                  "type": "div",
+                },
+              ],
+              "type": "div",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  <div
+                    className="col-5"
+                  >
+                    LAST
+                  </div>,
+                  <div
+                    className="col-1"
+                  >
+                    =
+                  </div>,
+                  <div
+                    className="col-5"
+                  >
+                    N/A
+                  </div>,
+                ],
+                "className": "row stats__details",
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "LAST",
+                    "className": "col-5",
+                  },
+                  "ref": null,
+                  "rendered": "LAST",
+                  "type": "div",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "=",
+                    "className": "col-1",
+                  },
+                  "ref": null,
+                  "rendered": "=",
+                  "type": "div",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "N/A",
+                    "className": "col-5",
+                  },
+                  "ref": null,
+                  "rendered": "N/A",
+                  "type": "div",
+                },
+              ],
+              "type": "div",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  <div
+                    className="col-5"
+                  >
+                    VOLUME (30 day)
+                  </div>,
+                  <div
+                    className="col-1"
+                  >
+                    =
+                  </div>,
+                  <div
+                    className="col-5"
+                  >
+                    N/A
+                  </div>,
+                ],
+                "className": "row stats__details",
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "VOLUME (30 day)",
+                    "className": "col-5",
+                  },
+                  "ref": null,
+                  "rendered": "VOLUME (30 day)",
+                  "type": "div",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "=",
+                    "className": "col-1",
+                  },
+                  "ref": null,
+                  "rendered": "=",
+                  "type": "div",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "N/A",
+                    "className": "col-5",
+                  },
+                  "ref": null,
+                  "rendered": "N/A",
+                  "type": "div",
+                },
+              ],
+              "type": "div",
+            },
+          ],
+          "type": "div",
+        },
+      ],
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getDerivedStateFromProps": true,
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+  },
+}
+`;
