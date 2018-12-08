@@ -98,7 +98,7 @@ export class Home extends Component {
     const paginate = <ReactPaginate
       previousLabel={<i className="fas fa-chevron-circle-left prev__page"></i>}
       nextLabel={<i className="fas fa-chevron-circle-right next__page"></i>}
-      breakLabel={<a href="#">...</a>} // eslint-disable-line
+      breakLabel={<a href="#" className="page-link">...</a>} // eslint-disable-line
       breakClassName='break-me'
       pageCount={totalPages ? totalPages : 0}
       marginPagesDisplayed={3}
